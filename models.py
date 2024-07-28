@@ -48,11 +48,3 @@ class Grade(Base):
     subject = relationship("Subject", back_populates="grades")
 
 
-
-
-#DATABASE_URL = "postgresql://postgres:postgres@localhost/postgres"
-#engine = create_engine(DATABASE_URL)
-#SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-
-#Base.metadata.create_all(engine)

@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 sqlalchemy = "*"
 alembic = "*"
-psycopg2 = "*"
 faker = "*"
 psycopg = {extras = ["binary"], version = "*"}
 
